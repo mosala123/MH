@@ -1,0 +1,476 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+  .swiper-slide{
+cursor:  grab;
+}
+
+/* start navbar */
+.navbar-collapse {
+    justify-content: flex-end;
+    font-size: 20px ;
+    font-weight: 600;
+
+}
+.collapse a
+,.active{
+    transition: 1s ease linear;
+    padding:  10px ;
+}
+.collapse a:hover
+,.active:hover{
+    background-color: rgba(60, 86, 84, 0.794);
+    border-radius: 5px ;
+    color: white;
+}
+/* end navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+/* start home  */
+.swiper-slide {
+  text-align: center;
+  color: white; /* لون النص */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px ;
+  background-image: radial-gradient(circle, #0000ff 20%, transparent 10%); /* دوائر زرقاء */
+  height: 100%;
+}
+.swiper-slide p {
+  position: absolute;
+  top: 30%;
+  right:  7% ;
+  /* transform: translateX(-50%); */
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  font-size: 30px;
+  color: #000;
+  width:60%;
+  flex-wrap: wrap;
+  background: none;
+  font-weight: 900;
+}
+.swiper-container img{
+  width: 100% ;
+  height: 100vh  ;
+  padding: 10px ;
+  z-index: -1;
+  object-fit: cover;
+}
+.container .card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px ;
+  margin:  10px ;
+  transition: 0.3s ease;
+}
+.container .card:hover{
+  opacity: 0.6;
+}
+.container .card i{
+  background-color: #0000ff;
+  color: white;
+  font-size: 50px;
+  border: 2px solid #0000ff;
+  width: 100px ;
+  height: 100px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:  10px ;
+  border-radius: 9px ;
+}
+
+/* end  home  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start first sections */
+
+
+.jumbotron{
+  direction: rtl;
+  text-align: start;
+}
+.jumbotron img{
+  width: 100%;
+  height: 100%;
+}
+.jumbotron .left i{
+   font-size: 25px ;
+   border:  1px solid #0000ff;
+   background-color: #0000ff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   width:  50px ;
+   height: 50px;
+   color: white;
+
+  }
+  .container a{
+    transition: 0.3s ease;
+    font-weight: 700;
+  }
+.container a:hover{
+  background-color: #2525e4;
+}
+
+
+
+/* end  first sections */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* strat  two sections   */
+ #pargraph{
+  font-size: 20px ;
+  transition: 0.3s  ease;
+ }
+#pargraph:hover{
+  color: #2525e4;
+  cursor: pointer;
+ 
+   
+}
+
+ .card-img-top:hover {
+  opacity: 1;
+}
+
+/* end   two sections   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* strat four sections  */
+
+.foursections{
+ background-color: rgba(0, 0, 0, 0.514);
+  margin: 10px auto;
+  padding-bottom: 40px ;
+  color: white;
+  padding: 20px 0 ;
+}
+ .foursections .swiper-wrapper{
+  width: 100px ;
+  height: 100%;
+}
+.foursections .swipwes {
+  width: 100%;
+  padding: 10px;  
+  overflow: hidden;
+}
+.foursections .swiper-container {
+   width: 500px;
+  margin: 0 auto;
+}
+.foursections .swiper-slide img {
+  width: 100%; 
+  height: 300px ;  
+  margin: 20px  auto;
+}
+
+
+
+
+
+
+/* end four sections  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* strat fivesections */
+
+.fivesections{
+  padding:  100px 20px ;
+  background-color: #555;
+  color: white;
+  margin: 0;
+}
+
+
+
+/* end fivesections */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start   sex sections  */ 
+
+
+
+
+
+
+
+
+.sex .cards {
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.sex .cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+
+
+.sex .icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  transition: opacity 0.3s ease;  
+}
+.sex .icon i {
+  font-size: 20px; /* تقليل حجم الرمز */
+  background-color: #0000ff;
+  border-radius: 50%;
+  padding:0;
+  cursor: pointer;
+  border: #0000ff;
+
+}
+.sex .icon i:hover{
+  background-color: transparent;
+  border: none;
+  color: #0000ff;
+  font-size: 26px ;
+  border: 1px solid white;
+}
+
+
+.sex .card:hover .icon {
+  display: block; 
+}
+
+.sex .card-text {
+  position: relative;
+}
+
+
+
+
+ 
+
+.sex p {
+  border: 2px solid #2525e4;
+  background-color: #0000ffcb;
+  transition: 0.3s ease;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  width: 310px;
+  font-size: 25px;
+  transition: 0.3s ease;
+}
+
+.sex p:hover {
+  background-color: rgb(0, 0, 255);
+  letter-spacing: 1px ;
+}
+
+
+
+
+/* end  sex sections  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start seven sections  */
+#count{
+  padding: 30px 0 ;
+
+}
+#count h1{
+  font-size: 100px ;
+  margin: 20px 30px ;
+}
+
+
+
+
+/* end seven sections  */
+
+
+
+
+
+/*  strat eightsections */
+
+
+
+.eight p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  font-size: 26px;
+   margin: 30px;
+   cursor: pointer;
+}
+
+.eight p:hover{
+  letter-spacing: 1px ;
+  background-color: #2525e4;
+}
+
+/*  end eightsections */
+
+
+
+
+/* start nine sextions  */
+
+ 
+ .nine .swiper-slide h1{
+  font-size: 20px;
+  color: #000;
+ }
+ .nine .swiper-slide a{
+  text-decoration: none;
+  color: #000;
+
+ }
+ .nine .swiper-slide a:hover{
+  background-color:transparent
+  ;
+  cursor: pointer;
+ }
+ .nine .swiper-slide i{
+  margin: 2px ;
+  color: #000;
+   
+ }
+
+
+
+
+/* end  nine sextions  */
+
+
+
+
+
+/* start ten sections  */
+
+
+footer i
+,footer a{
+  transition: 0.3s ease ;
+}
+footer i:hover{
+  background-color:  #0000ff ;
+  padding:  5px ;
+  border:  1px solid #0000ff ;
+
+  color: white;
+}
+
+footer a:hover{
+padding: 4px ;
+background-color: #0000ff;
+color: white;
+}
+
+
+
+
+
+
+
+/* end  ten sections  */
+
+
+
+
