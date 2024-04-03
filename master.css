@@ -1,11 +1,6 @@
- 
-
-
-
-
 /* strat swiper home  */ 
 .mySwiper {
-  width: 96%;
+  width: 90%;
   height: 580px;
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -14,15 +9,15 @@
   margin: 100px auto 0  auto;
   padding: 0;
   position: relative; /* تأكد من وضع هذا السطر */
+  z-index: 1;
 }
-
 .mySwiper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 0.7;
+  border-radius: 0;
 }
-
 .mySwiper h1 {
   position: absolute;
   top: 10%;
@@ -41,34 +36,11 @@
   border-radius: 10px ;
   color: #000000;
   line-height: 50px;
-
 }
-
 /* end  swiper home  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* start home  */
-  
 .container .card{
   display: flex;
   align-items: center;
@@ -95,25 +67,10 @@
   margin:  10px ;
   border-radius: 9px ;
 }
-
 /* end  home  */
 /* ----------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* start first sections */
-
-
 .jumbotron{
   direction: rtl;
   text-align: start;
@@ -143,28 +100,14 @@
 .container a:hover{
   background-color: #2525e4;
 }
-
 /* end  first sections */
 /* --------------------- */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* strat  two sections   */
 .twosections .card {
   border: none;
-
 }
- 
 .twosections .card img{
   border-radius:   9px   ;
 }
@@ -172,8 +115,6 @@
   font-size: 20px ;
   transition: 0.3s  ease;
  }
-
-
 #pargraph{
   font-size: 25px ;
   transition: 0.3s ease;
@@ -181,33 +122,19 @@
 #pargraph:hover{
   color: #2525e4;
   cursor: pointer ;
-   
 }
-
- .card-img-top:hover {
+.card-img-top:hover {
   opacity: 1;
 }
  .Service .card:hover {
   border: 1px solid #ddd;
   opacity: 1;
 }
-
 /* end   two sections   */
 /* --------------------------- */
 
 
-
-
-
-
-
-
-
-
-
-
 /* strat four sections  */
-
 .foursections{
  background-color: rgba(0, 0, 0, 0.514);
   margin: 0 auto;
@@ -223,7 +150,6 @@
   padding: 10px;  
   overflow: hidden;
   margin: 30px auto 100px ;
-   
 }
 .foursections .swiper-container {
    width: 500px;
@@ -234,87 +160,32 @@
   height: 300px ;  
   margin: 20px  auto;
 }
-
 .swiper-slide{
   margin: 0 10px ;
 }
-
-
-
-
-/* end four sections  */
 .foursections .swiper-button-prev,
 .foursections .swiper-button-next,
 .foursections .swiper-pagination{
- 
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* end four sections  */
 
 
 /* strat fivesections */
-
 .fivesections{
   margin: 0;
   color: white;
 }
-
-
-
 /* end fivesections */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* start   sex sections  */ 
-
-
-
-
-
-
- 
-
-
-
-
 /* end  sex sections  */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* start seven sections  */
 #count{
   padding: 30px 0 ;
-
 }
 #count h1{
   font-size:50px ;
@@ -324,19 +195,10 @@
   font-size: 20px ;
   font-weight: 700;
 }
-
-
-
 /* end seven sections  */
 
 
-
-
-
 /*  strat eight sections */
-
-
-
 .eight p{
   display: flex;
   align-items: center;
@@ -346,7 +208,6 @@
    margin: 30px;
    cursor: pointer;
 }
-
 .eight p:hover{
   letter-spacing: 1px ;
   background-color: #2525e4;
@@ -357,18 +218,11 @@
 /*  end eightsections */
 
 
-
-
 /* start nine sextions  */
-
 .nine .swiper-slide   {
   margin: 10px ;
   padding-bottom: 20px ;
 }
-
-
-
-
 .nine .end{
   direction: rtl;
   padding: 0 10px ;
@@ -403,20 +257,11 @@
   ;
   cursor: pointer;
   color:  blue;
- }
-  
-
-
-
+}
 /* end  nine sextions  */
 
 
-
-
-
 /* start ten sections  */
-
-
 footer i
 ,footer a{
   transition: 0.5s ease ;
@@ -425,19 +270,11 @@ footer i:hover{
   transform: scale(1.4);
   background-color: transparent;
 }
-
 footer a:hover{
   transform: scale(1.4);
  padding: 5px ;
 border-radius: 10px ;
 }
-
-
-
-
-
-
-
 /* end  ten sections  */
 
 
