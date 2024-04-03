@@ -1,30 +1,61 @@
-*{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+ 
 
-  .swiper-slide{
-cursor:  grab;
+
+
+
+
+/* strat swiper home  */ 
+.mySwiper {
+  width: 96%;
+  height: 580px;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 100px auto 0  auto;
+  padding: 0;
+  position: relative; /* تأكد من وضع هذا السطر */
 }
 
-/* start navbar */
-.navbar-collapse {
-    justify-content: flex-end;
-    font-size: 20px ;
-    font-weight: 600;
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.mySwiper h1 {
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  color: white;
+  font-size: 30px;
+  padding: 5px 10px;
+  z-index: 2;
+  width: 80%;
+  opacity: 1;
+  color: #000;
+  font-weight:   bold;
+  text-align: end;
+  background-color: #55555583;
+  padding:  20px ;
+  border-radius: 10px ;
+  color: #000000;
+  line-height: 50px;
 
 }
-.collapse a
-,.active{
-    transition: 1s ease linear;
-    padding:  10px ;
-}
-.collapse a:hover
-,.active:hover{
-    background-color: rgba(60, 86, 84, 0.794);
-    border-radius: 5px ;
-    color: white;
-}
-/* end navbar */
+
+/* end  swiper home  */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,48 +69,15 @@ cursor:  grab;
 
 
 /* start home  */
-.swiper-slide {
-  text-align: center;
-  color: white; /* لون النص */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 10px ;
-  background-image: radial-gradient(circle, #0000ff 20%, transparent 10%); /* دوائر زرقاء */
-  height: 100%;
-}
-.swiper-slide p {
-  position: absolute;
-  top: 30%;
-  right:  7% ;
-  /* transform: translateX(-50%); */
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 5px 10px;
-  border-radius: 5px;
-  z-index: 1;
-  font-size: 30px;
-  color: #000;
-  width:60%;
-  flex-wrap: wrap;
-  background: none;
-  font-weight: 900;
-}
-.swiper-container img{
-  width: 100% ;
-  height: 100vh  ;
-  padding: 10px ;
-  z-index: -1;
-  object-fit: cover;
-}
+  
 .container .card{
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
-  padding: 20px ;
-  margin:  10px ;
+  padding:  20px ;
+  margin: 10px ;
   transition: 0.3s ease;
 }
 .container .card:hover{
@@ -100,7 +98,7 @@ cursor:  grab;
 }
 
 /* end  home  */
-
+/* ----------------------------------- */
 
 
 
@@ -120,6 +118,7 @@ cursor:  grab;
 .jumbotron{
   direction: rtl;
   text-align: start;
+  z-index: 2;
 }
 .jumbotron img{
   width: 100%;
@@ -146,9 +145,8 @@ cursor:  grab;
   background-color: #2525e4;
 }
 
-
-
 /* end  first sections */
+/* --------------------- */
 
 
 
@@ -162,25 +160,41 @@ cursor:  grab;
 
 
 
+/* strat  two sections   */
+.twosections .card {
+  border: none;
 
- /* strat  two sections   */
+}
+ 
+.twosections .card img{
+  border-radius:   9px   ;
+}
  #pargraph{
   font-size: 20px ;
   transition: 0.3s  ease;
  }
+
+
+#pargraph{
+  font-size: 25px ;
+  transition: 0.3s ease;
+}
 #pargraph:hover{
   color: #2525e4;
-  cursor: pointer;
- 
+  cursor: pointer ;
    
 }
 
  .card-img-top:hover {
   opacity: 1;
 }
+ .Service .card:hover {
+  border: 1px solid #ddd;
+  opacity: 1;
+}
 
 /* end   two sections   */
-
+/* --------------------------- */
 
 
 
@@ -197,8 +211,7 @@ cursor:  grab;
 
 .foursections{
  background-color: rgba(0, 0, 0, 0.514);
-  margin: 10px auto;
-  padding-bottom: 40px ;
+  margin: 0 auto;
   color: white;
   padding: 20px 0 ;
 }
@@ -207,9 +220,11 @@ cursor:  grab;
   height: 100%;
 }
 .foursections .swipwes {
-  width: 100%;
+  width: 90%;
   padding: 10px;  
   overflow: hidden;
+  margin: 30px auto 100px ;
+   
 }
 .foursections .swiper-container {
    width: 500px;
@@ -221,13 +236,20 @@ cursor:  grab;
   margin: 20px  auto;
 }
 
-
+.swiper-slide{
+  margin: 0 10px ;
+}
 
 
 
 
 /* end four sections  */
-
+.foursections .swiper-button-prev,
+.foursections .swiper-button-next,
+.foursections .swiper-pagination{
+ 
+  display: none;
+}
 
 
 
@@ -244,10 +266,8 @@ cursor:  grab;
 /* strat fivesections */
 
 .fivesections{
-  padding:  100px 20px ;
-  background-color: #555;
-  color: white;
   margin: 0;
+  color: white;
 }
 
 
@@ -273,82 +293,7 @@ cursor:  grab;
 
 
 
-
-
-.sex .cards {
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-  z-index: -1;
-}
-
-.sex .cards img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 1;
-}
-
-
-
-.sex .icon {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  transition: opacity 0.3s ease;  
-}
-.sex .icon i {
-  font-size: 20px; /* تقليل حجم الرمز */
-  background-color: #0000ff;
-  border-radius: 50%;
-  padding:0;
-  cursor: pointer;
-  border: #0000ff;
-
-}
-.sex .icon i:hover{
-  background-color: transparent;
-  border: none;
-  color: #0000ff;
-  font-size: 26px ;
-  border: 1px solid white;
-}
-
-
-.sex .card:hover .icon {
-  display: block; 
-}
-
-.sex .card-text {
-  position: relative;
-}
-
-
-
-
  
-
-.sex p {
-  border: 2px solid #2525e4;
-  background-color: #0000ffcb;
-  transition: 0.3s ease;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 20px;
-  text-decoration: none;
-  color: white;
-  width: 310px;
-  font-size: 25px;
-  transition: 0.3s ease;
-}
-
-.sex p:hover {
-  background-color: rgb(0, 0, 255);
-  letter-spacing: 1px ;
-}
 
 
 
@@ -373,10 +318,13 @@ cursor:  grab;
 
 }
 #count h1{
-  font-size: 100px ;
+  font-size:50px ;
   margin: 20px 30px ;
 }
-
+#count .top p{
+  font-size: 20px ;
+  font-weight: 700;
+}
 
 
 
@@ -386,7 +334,7 @@ cursor:  grab;
 
 
 
-/*  strat eightsections */
+/*  strat eight sections */
 
 
 
@@ -404,7 +352,9 @@ cursor:  grab;
   letter-spacing: 1px ;
   background-color: #2525e4;
 }
-
+.eight img{
+  margin: 109px ;
+}
 /*  end eightsections */
 
 
@@ -412,27 +362,50 @@ cursor:  grab;
 
 /* start nine sextions  */
 
- 
+.nine .swiper-slide   {
+  margin: 10px ;
+  padding-bottom: 20px ;
+}
+
+
+
+
+.nine .end{
+  direction: rtl;
+  padding: 0 10px ;
+}
  .nine .swiper-slide h1{
-  font-size: 20px;
-  color: #000;
+  font-size: 24px;
+  color: white;
+  direction: rtl;
+  padding: 20px  15px 0  ;
+  font-weight: 700;
+ }
+ .nine .swiper-slide {
+  border: 2px solid white;
+  border-radius:  10px ;
+  margin: 10px ;
+ }
+ .nine .swiper-slide img{
+  margin: 0;
+  padding: 0;
+  border-radius: 9px 9px 0 0 ;
  }
  .nine .swiper-slide a{
   text-decoration: none;
   color: #000;
-
+  padding:   20px 10px  ;
+  font-size: 23px ;
+ 
  }
- .nine .swiper-slide a:hover{
+ .nine .swiper-slide a:hover
+ {
   background-color:transparent
   ;
   cursor: pointer;
+  color:  blue;
  }
- .nine .swiper-slide i{
-  margin: 2px ;
-  color: #000;
-   
- }
-
+  
 
 
 
@@ -447,20 +420,17 @@ cursor:  grab;
 
 footer i
 ,footer a{
-  transition: 0.3s ease ;
+  transition: 0.5s ease ;
 }
 footer i:hover{
-  background-color:  #0000ff ;
-  padding:  5px ;
-  border:  1px solid #0000ff ;
-
-  color: white;
+  transform: scale(1.4);
+  background-color: transparent;
 }
 
 footer a:hover{
-padding: 4px ;
-background-color: #0000ff;
-color: white;
+  transform: scale(1.4);
+ padding: 5px ;
+border-radius: 10px ;
 }
 
 
@@ -474,3 +444,4 @@ color: white;
 
 
 
+ 
