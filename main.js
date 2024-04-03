@@ -1,20 +1,20 @@
-var swiper = new Swiper('.swiper-container', {
-  loop: true,
+// swiper home 
+var swiper = new Swiper(".mySwiper", {
   pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+    el: ".swiper-pagination",
+    type: "progressbar",
   },
   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-  },
-  scrollbar: {
-      el: '.swiper-scrollbar',
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 
+// -------------------- 
+
+// --------------------------------------------------------
   // swiper two 
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.foursections .swiper-container', {
     slidesPerView: 1,
     loop: true,
     autoplay: {
@@ -38,7 +38,7 @@ var swiper = new Swiper('.swiper-container', {
 // show the images 
 
  
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.eight .swiper-container', {
   loop: true,
   pagination: {
     el: '.swiper-pagination',
@@ -49,3 +49,23 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+
+
+
+// المشاريع 
+
+function showOverlay(element) {
+  var overlay = element.querySelector('.overlay');
+  overlay.style.display = 'flex';
+}
+
+function hideOverlay(element) {
+  var overlay = element.querySelector('.overlay');
+  overlay.style.display = 'none';
+}
+
+
+// -----------------------------------
+ 
