@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="master.css">
+<link rel="stylesheet" href="doubel.css">
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +22,8 @@
 
   
 <!-- start  navbar  -->
-<!-- شريط التنقل -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 5px 10px; direction: rtl;position: fixed;width: 100%;z-index: 9999;top: 0;">
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 5px 20px; direction: rtl;position: fixed;width: 100%;z-index: 9999;top: 0;">
     <div class="container-fluid">
       <!-- زر الهامبورغر للأجهزة المحمولة -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,28 +35,28 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+            <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">من نحن</a>
+            <a class="nav-link" href="من نحن .html">من نحن</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الخدمات</a>
+            <a class="nav-link" href="الخدمات .html">الخدمات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">المشاريع</a>
+            <a class="nav-link" href="المشاريع.html">المشاريع</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">عملاءنا</a>
+            <a class="nav-link" href="عملاءنا.html">عملاءنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الوسائط</a>
+            <a class="nav-link" href="الوساءط.html">الوسائط</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الوظائف</a>
+            <a class="nav-link" href="الوظاءف .html">الوظائف</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">تواصل معنا</a>
+            <a class="nav-link" href="تواصل معنا.html">تواصل معنا</a>
           </li>
         </ul>
       </div>
@@ -70,42 +71,48 @@
 
 
 
+<!--start  swiper home  -->
+ 
+
+<swiper-container class="mySwiper " pagination="true" pagination-type="progressbar" navigation="true">
+  <swiper-slide> 
+    <img src="images/istockphoto-1475286239-612x612.jpg" alt="">
+    <h1>     نعمل بمعايير عالية بهدف إرضاء عملائنا من خلال تنفيذ المشاريع بجودة استثنائية و وقت قياسى</h1>
+  </swiper-slide>
+  <swiper-slide> 
+    <img src="images/istockphoto-1357454702-612x612.jpg" alt="">
+    <h1>     خدماتنا بمعايير عالمية تحت إشراف فريق هندسي متخصص</h1>
+  </swiper-slide>
+  <swiper-slide> 
+    <img src="images/istockphoto-1484800420-612x612.jpg" alt="">
+    <h1>     مؤسسة ناشئة بمجال البناء والمقاولات و التشطيب و البنية التحتية في المملكة العربية السعودية تأسست عام 1444 هجريا</h1>
+  </swiper-slide>
+   
+ 
+</swiper-container>
+
+
+<!--end   swiper home  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 <!-- start home  -->
 
- <!-- Swiper -->
- <div class="swiper-container" style="margin: 20px;">
-  <!-- Slides -->
-  <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <div class="swiper-slide">
-          <img src="images/istockphoto-1193515225-612x612.jpg" alt="Slide 1">
-          <p class="p-3">موسسة ناشئة في مجال البناء والمقاولات والتشطيب والبنية التحتية في المملكة العربية السعودية، تأسست عام 1444 هـ.</p>
-      </div>
-      <!-- Slide 2 -->
-      <div class="swiper-slide">
-          <img src="images/istockphoto-1314128115-612x612.jpg" alt="Slide 2">
-          <p class="p-3">نعمل بمعايير عالية بهدف إرضاء عملائنا من خلال تنفيذ المشاريع بجودة استثنائية وفي وقت قياسي.</p>
-      </div>
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-          <img src="images/istockphoto-1479676933-612x612.jpg" alt="Slide 3">
-          <p class="p-3">خدمتنا بمعايير عالمية تحت إشراف فريق هندسي متخصص.</p>
-      </div>
-  </div>
-  <!-- Pagination -->
-  <div class="swiper-pagination"></div>
-  <!-- Navigation arrows -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  <!-- Scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
-
-
-<!-- Home Section -->
-<div class="container home" style="margin-top: 200px ;">
+<div class="container home " style="margin-top: 20px ;">
   <div class="row">
       <div class="col-md-3 col-sm-6">
           <div class="card">
@@ -166,11 +173,11 @@
 
 
 <!-- start first sections  -->
-<div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+<div class="containerr" style="margin-top: 100px; margin-bottom: 100px;  ">
   <div class="jumbotron">
 
     
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center" style="padding: 2px ;">
       <div class="col-md-6 order-md-1">
         <!-- Content here will appear above the image on smaller screens -->
         <h1 class="display-4">دعونا نبني شيئًا مبتكرًا معًا</h1>
@@ -208,7 +215,7 @@
 
 <!--  strat  two sections  -->
 
-<div class="twosections" style="background-color: rgba(127, 255, 212, 0.562);padding:  10px ;"> 
+<div class="twosections " style="  padding:  10px ;"> 
 <div class="container mt-5"  >
   <h1 class="text-center">   خدمتنا</h1>
   <div class="row mt-5">
@@ -268,13 +275,13 @@
     <div class="col-md-6">
       <div class="d-flex flex-column justify-content-between" >
         <div style=" padding: 30px; height: 10%; margin: 0 ; ">
-          <p   style="padding: 5px 30px  ;font-size: 26px;text-align: center;border-radius: 5px;color: white;background-color: #2525e4;height: 400px; display: flex;justify-content: center;align-items: center;"> نخطو خطوات ثابتة ومستمرة في تعزيز موقعنا كمجموعة ناشئة في مجال ال
+          <p   style="padding: 0px 30px  ;font-size: 26px;text-align: center;border-radius: 5px;color: white;background-color: #2525e4;height: 400px; display: flex;justify-content: center;align-items: center;"> نخطو خطوات ثابتة ومستمرة في تعزيز موقعنا كمجموعة ناشئة في مجال ال
             مقاولات، لدينا طاقم مميز من ذوي الخبرة والكفاءة من مهندسين وم
             شرفين وفنيين وعمال مدربين وفق أعلي مقاي
             يس الأمن والسلامة لإنجاز الأعمال وفق الاهداف المطلوبة.</p>
         </div>
         <div  style=" padding:  30px; height: 10%; margin: 0;">
-          <p style="padding: 5px 30px ;font-size: 23px;text-align: center;border-radius: 5px;color: white;background-color: green;height: 400px; display: flex;justify-content: center;align-items: center;">  أسهمت المجموعة منذ تأسيسها في إنشاء وابتكار بيئة عمل من أحدث التصاميم بحيث تتناسب مع 
+          <p style="padding: 0px 30px ;font-size: 23px;text-align: center;border-radius: 5px;color: white;background-color: green;height: 400px; display: flex;justify-content: center;align-items: center;">  أسهمت المجموعة منذ تأسيسها في إنشاء وابتكار بيئة عمل من أحدث التصاميم بحيث تتناسب مع 
             النشاط الموجود في العديد من المشاريع الحكومية والخاصة بجودة عالية جدا في معظم أنحاء المملكة.</p>
         </div>
       </div>
@@ -298,40 +305,32 @@
 
 <!-- start four sections  -->
 <div class="foursections   "> 
-<div class="container mt-5">
+<div class="containerr mt-5">
   <div class="row text-center"> 
   <h1 class="text-center" style="padding:  20px 0;">شركاء النجاح  </h1>
 </div>
 <div class="swipwes"> 
-  <div class="swiper-container" style="width: 500px; margin: 0 auto;">
+  <div class="swiper-container" style="width: 380px; margin: 0 auto;">
     <div class="swiper-wrapper">
       <div class="swiper-slide"  >
-        <img src="images/image1.jpg" alt="صورة 1" style="width: 100%;" >
+        <img src="images/Screenshot 2024-04-02 174209.jpg" alt="صورة 1" style="width: 100%;" >
       </div>
       <div class="swiper-slide">
-        <img src="images/istockphoto-1485996637-612x612.jpg" alt="صورة 2" style="width: 100%;">
+        <img src="images/Screenshot 2024-04-02 174255.jpg" alt="صورة 2" style="width: 100%;">
       </div>
       <div class="swiper-slide">
-        <img src="images/istockphoto-1479676933-612x612.jpg" alt="صورة 3" style="width: 100%;">
+        <img src="images/Screenshot 2024-04-02 174340.jpg" alt="صورة 3" style="width: 100%;">
       </div>
       <div class="swiper-slide">
-        <img src="images/istockphoto-174902845-612x612.jpg" alt="صورة 4" style="width: 100%;">
+        <img src="images/Screenshot 2024-04-02 174414.jpg" alt="صورة 4" style="width: 100%;">
       </div>
       <div class="swiper-slide">
-        <img src="images/istockphoto-1035456928-612x612.jpg" alt="صورة 4" style="width: 100%;">
+        <img src="images/Screenshot 2024-04-02 174440.jpg" alt="صورة 4" style="width: 100%;">
       </div>
       <div class="swiper-slide">
-        <img src="images/istockphoto-579152820-612x612.jpg" alt="صورة 4" style="width: 100%;">
+        <img src="images/image1.jpg" alt="صورة 4" style="width: 100%;">
       </div>
-      <div class="swiper-slide">
-        <img src="images/istockphoto-2097564952-612x612.jpg" alt="صورة 4" style="width: 100%;">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/istockphoto-827008078-612x612.jpg" alt="صورة 5" style="width: 100%;">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/image6.jpg" alt="صورة 6" style="width: 100%;">
-      </div>
+      
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -359,11 +358,11 @@
 
 <!-- strat sive sections  -->
 <div class="fivesections"> 
-<div class="container"  >
-  <div class="jumbotron">
+<div class="containerr"  >
+  <div class="jumbotron bg-dark">
 
     
-    <div class="row   align-items-center">
+    <div class="row   align-items-center ">
       <div class="col-md-6 order-md-1">
         <!-- Content here will appear above the image on smaller screens -->
         <h1 class="display-4">         شهادة تصنيف مقدمي خدمات المدن        </h1>
@@ -388,92 +387,107 @@
 
 <!--  start sex  sections  -->
 
+ 
+ 
+ 
+  
+<div class="containerr  "  style="background-color: #33333330;padding: 50px 30px; margin-top: -30px ; ">
+  <div class="row text-center"> 
+    <h1 class="text-center" style="padding:  20px  ;color: #000;">المعرض    </h1>
+  </div>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+              <img src="images/Screenshot 2024-03-25 112310.jpg" alt="Image 1">
+              <div class="overlay ">
+                  <h1> مكتب الرئيس التنفيذى ابراج مدن    </h1>
+                  <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
+              </div>
+          </div>
+      </div>
+     
 
-<div class="sex">
-  <div class="container mx-auto" style="padding: 30px 0;">
-    <h1 class="text-center " style="padding:   20px ;">المعرض</h1>
-    <div class="row">
-      <!-- Card 1 -->
-      <div class="col-md-3 col-sm-6">
-        <div class="card position-relative" style="padding: 0;" >
-            <img src="images/Screenshot 2024-03-25 112310.jpg" alt="" class="card-img-top">
-            <div class="icon position-absolute    ">
-                <i class="fa-solid fa-left-long" style="padding: 0;"></i>
+      <div class="col-md-4">
+        <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+            <img src="images/Screenshot 2024-03-25 112244.jpg" alt="Image 3">
+            <div class="overlay">
+                <h1>  استراحة النساء فى ابراج مدن                </h1>
+                <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
             </div>
         </div>
     </div>
-    
-      <!-- Card 2 -->
-      <div class="col-md-3">
-        <div class="card position-relative"  style="padding: 0;">
-          <img src="images/Screenshot 2024-03-25 112244.jpg" alt="" class="img-fluid">
-          <div class="icon ">
-            <i class="fa-solid fa-left-long"></i>
+    <div class="col-md-4">
+      <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+          <img src="images/Screenshot 2024-03-25 112217.jpg" alt="Image 3">
+          <div class="overlay">
+              <h1>  مصنع الخليج للاغذية </h1>
+              <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
           </div>
-        </div>
       </div>
-      <!-- Card 3 -->
-      <div class="col-md-3">
-        <div class="card position-relative"  style="padding: 0;">
-          <img src="images/Screenshot 2024-03-25 112310.jpg" alt="" class="img-fluid">
-          <div class="icon ">
-            <i class="fa-solid fa-left-long"></i>
-          </div>
+  </div>
+  <div class="col-md-4">
+    <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+        <img src="images/Screenshot 2024-03-25 112136.jpg" alt="Image 3">
+        <div class="overlay">
+            <h1>  المدينة الصناعية فى الرياض </h1>
+            <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
         </div>
+    </div>
+</div>
+<div class="col-md-4">
+  <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <img src="images/Screenshot 2024-03-25 112109.jpg" alt="Image 3">
+      <div class="overlay">
+          <h1>   المبنى الرئيسى لابراج مدن فى الرياض </h1>
+          <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
       </div>
-      <!-- Card 4 -->
-      <div class="col-md-3">
-        <div class="card position-relative"  style="padding: 0;">
-          <img src="images/Screenshot 2024-03-25 112217.jpg" alt="" class="img-fluid">
-          <div class="icon ">
-            <i class="fa-solid fa-left-long"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Card 5 -->
-      <div class="col-md-3">
-        <div class="card position-relative"  style="padding: 0;">
-          <img src="images/istockphoto-1458002636-612x612.jpg" alt="" class="img-fluid">
-          <div class="icon ">
-            <i class="fa-solid fa-left-long"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Card 6 -->
-      <div class="col-md-3 col-sm-6">
-        <div class="card position-relative" style="padding: 0;" >
-            <img src="images/image6.jpg" alt="" class="card-img-top">
-            <div class="icon position-absolute    ">
-                <i class="fa-solid fa-left-long" style="padding: 0;"></i>
-            </div>
-        </div>
-    </div>
-      <!-- Card 7 -->
-      <div class="col-md-3 col-sm-6">
-        <div class="card position-relative" style="padding: 0;" >
-            <img src="images/image7.jpg" alt="" class="card-img-top">
-            <div class="icon position-absolute    ">
-                <i class="fa-solid fa-left-long" style="padding: 0;"></i>
-            </div>
-        </div>
-    </div>
-      <!-- Card 8 -->
-      <div class="col-md-3 col-sm-6">
-        <div class="card position-relative" style="padding: 0;" >
-            <img src="images/image8.jpg" alt="" class="card-img-top">
-            <div class="icon position-absolute    ">
-                <i class="fa-solid fa-left-long" style="padding: 0;"></i>
-            </div>
-        </div>
-    </div>
- <!--  -->
-    </div>
-    <div class="row text-center" style="display: flex;align-items: center;justify-content: center;">
-      <p class="btn btn-primary" >مشاهده المزيد  </p>
-    </div>
   </div>
 </div>
-
+<div class="col-md-4">
+  <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <img src="images/Screenshot 2024-03-25 112041.jpg" alt="Image 3">
+      <div class="overlay">
+          <h1>    المبنى الرئيسى لابراج مدن فى الرياض
+          </h1>
+          <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
+      </div>
+  </div>
+</div>
+ 
+<div class="col-md-4">
+  <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <img src="images/Screenshot 2024-03-25 112011.jpg" alt="Image 3">
+      <div class="overlay">
+          <h1>    المبنى الرئيسى لابراج مدن فى الرياض
+          </h1>
+          <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
+      </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <img src="images/Screenshot 2024-03-25 111930.jpg" alt="Image 3">
+      <div class="overlay">
+          <h1>    المبنى الرئيسى لابراج مدن فى الرياض
+          </h1>
+          <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
+      </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="image-container" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+      <img src="images/istockphoto-1131205409-612x612.jpg" alt="Image 3">
+      <div class="overlay">
+          <h1>    المبنى الرئيسى لابراج مدن فى الرياض
+          </h1>
+          <a href="المشاريع.html" class="link"><i class="fa-solid fa-left-long"></i></a>
+      </div>
+  </div>
+</div>
+ 
+      <div class="text-center " style="margin-top: 30px ;"><a class="btn btn-primary" href="المشاريع.html" style="font-size: 30px ;padding:  2px 20px ;"  >مشاهده المزيد</a></div>
+  </div>
+</div>
  
 
 <!--  end  sex  sections  -->
@@ -483,10 +497,10 @@
 
 
 <!-- start seven sections  -->
-<div class="containe text-center"  id="count">
+<div class="containerr text-center "  id="count" style="background-color: #99999946;"  >
   <div class="row  ">
     <div class="col">
-      <div class="top text-center m-1  " style="padding:  30px 20px ; background-color: rgba(127, 255, 212, 0.481);">
+      <div class="top text-center m-1  " style="padding:  30px 20px ;  ">
         <div class="row">
           <div class="col">
             <h1 >   50+</h1>
@@ -507,12 +521,12 @@
         </div>
       </div>
       <div class="bootom">
-        <div class="jumbotron  " style="width: 90%;margin: 20px auto;">
+        <div class="jumbotron  " style="width: 100%;padding: 20px auto  ;  ">
           <div class="row">
              
-            <div class="col" style="display: flex;align-items: center; flex-direction: column;">
-              <h1 style="width: 40%; font-size: 20px ;" > لماذا تختار شركة التنفيذ المعاصر؟  </h1>
-              <p>   1- دقة التنفيذ والجودة
+            <div  class="col" style="display: flex;align-items: center; flex-direction: column;">
+              <h1 style="  font-size: 27px ;font-weight: 900"  > لماذا تختار شركة التنفيذ المعاصر؟  </h1>
+              <p style="font-size: 19px ; font-weight: 500; line-height: 30px ;">   1- دقة التنفيذ والجودة
                 : دائمًا ما نلتزم بالدقة في التنفيذ وتحقيق الجودة في
                  العمل، وهي من السمات المميزة لنا، مع الإنجاز السريع ل
                 لمشاريع باحترافية عالية، وبمواصفات قياسية عالمية.
@@ -532,7 +546,7 @@
             </p>
             </div>
             <div class="col">
-              <img src="images/image2.jpg" alt="صورة" style="width: 500px; height: 500px;  ">
+              <img src="images/istockphoto-2097564952-612x612.jpg" alt="صورة" style="width: 500px; height: 490px;  padding-left: 50px ;border-radius: 0; ">
             </div>
           </div>
         </div>
@@ -550,41 +564,33 @@
 <!-- start 8 section  -->
 
 
-<div class=" foursections eight   "> 
+<div class=" foursections eight bg-light   "   > 
   <div class="container mt-5">
     <div class="row text-center"> 
-    <h1 class="text-center" style="padding:  20px  ;">عملائنا    </h1>
+    <h1 class="text-center" style="padding:  20px  ;color: #000;">عملائنا    </h1>
   </div>
   <div class="swipwes"> 
-    <div class="swiper-container" style="width: 500px; margin: 0 auto;padding-bottom:  30px;">
+    <div class="swiper-container" style="width: 380px; margin: 0 auto;padding-bottom:  30px;">
       <div class="swiper-wrapper">
         <div class="swiper-slide"   >
-          <img src="images/image1.jpg" alt="صورة 1" style="width: 100%;" >
+          <img src="images/Screenshot 2024-04-02 174414.jpg" alt="صورة 1" style="width: 100%;" >
         </div>
         <div class="swiper-slide">
-          <img src="images/istockphoto-1485996637-612x612.jpg" alt="صورة 2" style="width: 100%;">
+          <img src="images/Screenshot 2024-04-02 174440.jpg" alt="صورة 2" style="width: 100%;">
         </div>
         <div class="swiper-slide">
-          <img src="images/istockphoto-1479676933-612x612.jpg" alt="صورة 3" style="width: 100%;">
+          <img src="images/Screenshot 2024-04-02 174209.jpg" alt="صورة 3" style="width: 100%;">
         </div>
         <div class="swiper-slide">
-          <img src="images/istockphoto-174902845-612x612.jpg" alt="صورة 4" style="width: 100%;">
+          <img src="images/Screenshot 2024-04-02 174340.jpg" alt="صورة 4" style="width: 100%;">
         </div>
         <div class="swiper-slide">
-          <img src="images/istockphoto-1035456928-612x612.jpg" alt="صورة 4" style="width: 100%;">
+          <img src="images/Screenshot 2024-04-02 174255.jpg" alt="صورة 4" style="width: 100%;">
         </div>
         <div class="swiper-slide">
-          <img src="images/istockphoto-579152820-612x612.jpg" alt="صورة 4" style="width: 100%;">
+          <img src="images/image1.jpg" alt="صورة 4" style="width: 100%;">
         </div>
-        <div class="swiper-slide">
-          <img src="images/istockphoto-2097564952-612x612.jpg" alt="صورة 4" style="width: 100%;">
-        </div>
-        <div class="swiper-slide">
-          <img src="images/istockphoto-827008078-612x612.jpg" alt="صورة 5" style="width: 100%;">
-        </div>
-        <div class="swiper-slide">
-          <img src="images/image6.jpg" alt="صورة 6" style="width: 100%;">
-        </div>
+       
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
@@ -615,76 +621,51 @@
       <h1 class="text-center" style="padding: 20px 0;"> احدث المشاريع  </h1>
     </div>
     <div class="swipwes"  >
-      <div class="swiper-container" style="width: 500px; margin: 0 auto;">
+      <div class="swiper-container" style="width: 380px; margin: 0 auto;">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
             <img src="images/istockphoto-1193515225-612x612.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>المدينة الصناعية فى الرياض</h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+               
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                  
               </div>
             </div>
           </div>
           <!-- تكرار هذا النمط للصور الأخرى -->
 
-   <div class="swiper-slide">
-            <img src="images/Screenshot 2024-03-25 112011.jpg" alt="صورة 1" style="width: 100%;">
-            <div>
-              <h1>  المدينة الصناعية فى الرياض              </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد </a>
-              </div>
-            </div>
-          </div>
-
-
-             <div class="swiper-slide">
-            <img src="images/image1.jpg" alt="صورة 1" style="width: 100%;">
-            <div>
-              <h1>عنوان h1</h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
-              </div>
-            </div>
-          </div>
 
              <div class="swiper-slide">
             <img src="images/Screenshot 2024-03-25 111930.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>   المبنى الرئيسى لابراج مدن فى الرياض</h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                 
               </div>
             </div>
           </div>
 
              <div class="swiper-slide">
-            <img src="images/Screenshot 2024-03-25 112244.jpg" alt="صورة 1" style="width: 100%;">
+            <img src="images/image7.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>المبنى الرئيسى لابراج مدن فى الرياض  </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                 
               </div>
             </div>
           </div>
 
              <div class="swiper-slide">
-            <img src="images/istockphoto-1133561715-612x612.jpg" alt="صورة 1" style="width: 100%;">
+            <img src="images/istockphoto-1227537563-612x612.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1> مصنع الخليج للاغذية </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                 
               </div>
             </div>
@@ -694,9 +675,8 @@
             <img src="images/istockphoto-1357454702-612x612.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>   مكتب الاستقبال في ابراج مدن </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                
               </div>
             </div>
@@ -706,9 +686,8 @@
             <img src="images/Screenshot 2024-03-25 112136.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>       استراحة النساء فى ابراج مدن      </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#">مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                 
               </div>
             </div>
@@ -718,9 +697,8 @@
             <img src="images/istockphoto-1131205409-612x612.jpg" alt="صورة 1" style="width: 100%;">
             <div>
               <h1>المبنى الرئيسى لابراج مدن فى الرياض  </h1>
-              <div>
-                <i class="fa fa-plus"></i>
-                <a href="#" >مشاهده المزيد</a>
+              <div class="end">
+                <a href="المشاريع.html">مشاهده المزيد      <i class="fa fa-plus"></i></a>
                
               </div>
             </div>
@@ -753,7 +731,7 @@
 
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <div>
+    <div  style="font-size: 22px;font-weight: 500;color: #000;">
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
       </a>
@@ -774,48 +752,48 @@
       </a>
     </div>
     <div class="me-5 d-none d-lg-block">
-      <span>تواصل معنا على وسائل التواصل الاجتماعي:</span>
+      <span  style="font-size: 24px;font-weight: 700;color: #000;">تواصل معنا على وسائل التواصل الاجتماعي:</span>
     </div>
   </section>
 
-  <section class="">
+  <section  style="font-size: 17px;font-weight: 100;color: #000; text-decoration: none;" >
     <div class="container text-center text-md-start mt-5">
       <div class="row mt-3">
-        
+ 
 
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" >
           <h6 class="text-uppercase fw-bold mb-4">
-            المنتجات
+            الخدمات
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset"   style="text-decoration: none;">        تصميم وانشاء بيئة عمل مناسبة            </a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;"> اعمال المقاولات العامة المتعلقه بانشاء المباني            </a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;">تشطيبات داخليه وخارجيه            </a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+   <a href="#!" class="text-reset"  style="text-decoration: none;"> اعمال البينة التحتيه</a>
           </p>
         </div>
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" >
           <h6 class="text-uppercase fw-bold mb-4">
             روابط مفيدة
           </h6>
           <p>
-            <a href="#!" class="text-reset">الأسعار</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;" >الأسعار</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">الإعدادات</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;">الإعدادات</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">الطلبات</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;">الطلبات</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">المساعدة</a>
+            <a href="#!" class="text-reset"  style="text-decoration: none;">المساعدة</a>
           </p>
         </div>
 
@@ -834,8 +812,9 @@
             <i class="fas fa-gem me-3"></i>اسم الشركة
           </h6>
           <p>
-            هنا يمكنك استخدام الصفوف والأعمدة لتنظيم محتوى التذييل الخاص بك. يمكنك أيضًا استخدام Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            مؤسسة ناشئة بمجال البناء والمقاولات و التشطيب و البنية التحتية في المملكة العربية السعودية تأسست عام 1444 هجري
+
+            الرياض
           </p>
         </div>
       </div>
@@ -869,16 +848,13 @@
 
 
 
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="main.js"></script>
-<script src="bootstrap-4.0.0-dist/js/popper.minس.1.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/popper.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/jquery-3.7.1.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 </body>
 </html>
